@@ -35,3 +35,16 @@ def map_to_square(source_array)
   
   return squared_array
 end
+
+
+reduce_to_total returns a running total when not given a starting point
+
+  reduce_to_total returns a running total when given a starting point
+    reduces correctly (FAILED - 2)
+  reduce_to_all_true returns true when all values are truthy
+    reduces correctly (FAILED - 3)
+  reduce_to_all_true returns false when any value is false
+    reduces correctly (FAILED - 4)
+  reduce_to_any_true returns true when a truthy value is present
+    reduces correctly (FAILED - 5)
+  reduce_to_any_true returns false when no truthy value is present
