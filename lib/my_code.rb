@@ -1,7 +1,10 @@
 # My Code here....
 def map_to_negativize(collection)
-  collection.each do |item|
-    puts item
+  negative_collection = []
+  
+  collection.each do |element|
+    negative_collection.push(element * -1)
   end
-  return collection
+  
+  return negative_collection
 end
